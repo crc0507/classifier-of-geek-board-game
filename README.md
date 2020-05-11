@@ -8,18 +8,18 @@
 2. nltk == 3.2.4
 
 ## deploy the service on Heroku
-$ mkdir /home/bjhee/termproject
-$ cd /home/bjhee/termproject
-$ git init
-$ heroku git:remote -a termproject
+1. $ mkdir /home/bjhee/termproject
+2. $ cd /home/bjhee/termproject
+3. $ git init
+4. $ heroku git:remote -a termproject
 
 ## Write the libraries needed in the requirements.txt file
 ## write the library needed in the nltk.txt file
 
 ## push to the github
-git add. 
-git commit -m "test"
-git push heroku master
+1. git add. 
+2. git commit -m "test"
+3. git push heroku master
 
 ## open the website in the browser
 heroku open
