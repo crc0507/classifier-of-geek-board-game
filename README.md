@@ -1,8 +1,25 @@
-{\rtf1\ansi\ansicpg936\cocoartf1671\cocoasubrtf100
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+## Our goal in this application is to build a classification model to predict the rating of reviews using Naive Bayes.
 
-\f0\fs24 \cf0 hello world}
+## Download the vocabulary list file
+./static/data.txt
+
+## You need to install following libraries.
+1. Flask == 1.1.2
+2. nltk == 3.2.4
+
+## deploy the service on Heroku
+$ mkdir /home/bjhee/termproject
+$ cd /home/bjhee/termproject
+$ git init
+$ heroku git:remote -a termproject
+
+## Write the libraries needed in the requirements.txt file
+## write the library needed in the nltk.txt file
+
+## push to the github
+git add. 
+git commit -m "test"
+git push heroku master
+
+## open the website in the browser
+heroku open
